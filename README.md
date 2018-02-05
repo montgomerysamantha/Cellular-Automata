@@ -1,17 +1,17 @@
-# Lab Starter
+Cellular Automata
 
-# Git Setup 
+A simple heat map of cells written in C#. The GUI contains a 2D array of Labels which change colors from
+white to red when clicked. The red cells represent heat sources and they will stay that way until they
+are clicked or the Reset button is pressed. Updates color of new generation every 300ms. 
 
-if you are on windows you will need to install git
-[https://git-scm.com/download/win](https://git-scm.com/download/win)
+![alt text](https://imgur.com/oj5RD2L)
+Program when it first starts up.
 
-Run the following commands
-```bash
-# You can find {URL FROM PAGE} by clicking the green "Clone or Download" button
-git clone {URL FROM PAGE} # Ex: git clone https://github.com/KState-CIS300-S17-Scholars/lab4-V-FEXrt.git
-cd {PROJECT NAME} # Ex: cd git-info
-# Copy your VS project into the ProjectFolderHere folder
-git add .
-git commit -m "{message discribing your changes here}" # Ex: git commit -m "Adding Lab to repo"
-git push origin master
-```
+![alt text](https://imgur.com/c1tznHX)
+Example of heat sources.
+
+![alt text](https://imgur.com/ieAbGn6)
+Program after about 30 sec of running.
+
+![alt text](https://imgur.com/rvj51XF)
+User can click Stop or add more heat sources as needed.
